@@ -23,14 +23,23 @@ Confirm — QR code + local notification (“30min before” demo as +30s)
 Scanner — on-device QR scanning and validation
 
 Key Files: 
+
 App.js                       # screen switcher (Home → screens)
+
 styles/tokens.js             # color & type tokens
+
 screens/StyleBoard.js
+
 screens/Intake.js
+
 screens/Schedule.js
+
 screens/Confirm.js
+
 screens/Scanner.js
+
 utils/swap.js                # same-building time-swap helper
+
 data/tenants.json            # tiny mock data
 
 2) Demo script (A5 evidence)
