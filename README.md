@@ -65,16 +65,24 @@ R5 Scanner (verify)
 Open Scanner → scan the Confirm QR → see “Job verified: AT-2048.”
 
 3) Mapping to requirements
+   
 Requirement	Where / How
+
 R1 Hello World	App.js (home + navigation)
+
 R2 Hello Styles	styles/tokens.js, screens/StyleBoard.js
+
 R3 Image Intake (≥2)	screens/Intake.js + expo-image-picker
+
 R6 Earliest + Flex swap	screens/Schedule.js + utils/swap.js + data/tenants.json
+
 R5 Local notification	screens/Confirm.js + expo-notifications (+ expo-constants)
+
 R5 QR code	screens/Confirm.js + react-native-qrcode-svg
+
 R5 QR scan (on device)	screens/Scanner.js + expo-camera
 
-4) Notes & constraints
+5) Notes & constraints
 
 Camera/Notifications require Expo Go on device. Web preview won’t work.
 
